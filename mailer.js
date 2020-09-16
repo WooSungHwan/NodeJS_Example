@@ -5,7 +5,7 @@ const main = async () => {
         service: 'gmail',
         host: 'smtp.gmail.com',
         port: 587,
-        secure: false,
+        secure: true,
         auth: {
             user: 'studyfarm20@gmail.com',
             pass: '-',
