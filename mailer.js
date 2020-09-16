@@ -8,13 +8,13 @@ const main = async () => {
         secure: false,
         auth: {
             user: 'studyfarm20@gmail.com',
-            pass: 'chcvahbitiyjghtx',
+            pass: '-',
         },
     });
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-        from: 'studyfarm20@gmail.com',
+        from: '"스터디팜" <studyfarm20@gmail.com>',
         to: 'doqndnffo@gmail.com',
         subject: '테스트',
         text: 'test',
