@@ -1,7 +1,6 @@
 {
   "name": "mailtest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,21 @@
   "license": "ISC",
   "dependencies": {
     "nodemailer": "^6.4.11",
-    "nodemailer-smtp-pool": "^2.8.3"
-  }
+    "nodemailer-smtp-pool": "^2.8.3",
+    "sanitize-html": "^2.0.0",
+    "xss": "^1.0.8"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooSungHwan/NodeJS_Example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WooSungHwan/NodeJS_Example/issues"
+  },
+  "homepage": "https://github.com/WooSungHwan/NodeJS_Example#readme",
+  "description": ""
 }
